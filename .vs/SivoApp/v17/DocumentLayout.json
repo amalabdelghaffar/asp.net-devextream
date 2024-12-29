@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amal\\source\\repos\\SivoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|c:\\users\\amal\\source\\repos\\sivoapp\\sivoapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4867405A-91DE-4BC6-ADFD-96392F5058B3}|SivoApp\\SivoApp.csproj|solutionrelative:sivoapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Program.cs",
+              "RelativeDocumentMoniker": "SivoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Program.cs",
+              "RelativeToolTip": "SivoApp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:25:28.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "SivoApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "SivoApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T14:45:50.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:57:07.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "SivoApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:09:33.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SivoApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SivoApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAANgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:54:14.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SivoApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SivoApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:53:56.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SivoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "SivoApp\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T13:58:03.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SivoApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\appsettings.json",
+              "RelativeToolTip": "SivoApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T15:27:11.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "SivoApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\amal\\source\\repos\\SivoApp\\SivoApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "SivoApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:53:41.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
