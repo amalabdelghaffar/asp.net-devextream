@@ -11,12 +11,11 @@
     <title>SivoApp</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-    @* Uncomment to use the HtmlEditor control *@
-    @* <script src="https://unpkg.com/devextreme-quill@21_2/dist/dx-quill.min.js"></script> *@
-
     <link rel="stylesheet" href="~/css/vendor.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Site.css" />
     <script src="~/js/vendor.js" asp-append-version="true"></script>
+    <!-- Ajouter FontAwesome via CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <partial name="_LoginPartial" />
 </head>
 
@@ -24,22 +23,22 @@
     <div id="app-side-nav-outer-toolbar">
         <div class="layout-header">
             @(Html.DevExtreme().Toolbar()
-                .Items(items => {
+                .Items(items =>
+                {
                     items.Add()
-                        .Widget(w => w
-                            .Button()
-                            .Icon("menu")
-                            .OnClick("SivoApp.onMenuButtonClick")
-                        )
-                        .Location(ToolbarItemLocation.Before)
-                        .CssClass("menu-button");
+                    .Widget(w => w
+                    .Button()
+                    .Icon("menu")
+                    .OnClick("SivoApp.onMenuButtonClick")
+                    )
+                    .Location(ToolbarItemLocation.Before)
+                    .CssClass("menu-button");
                     items.Add()
-                        .Html("<div>SivoApp</div>")
-                        .Location(ToolbarItemLocation.Before)
-                        .CssClass("header-title");
-                   
+                    .Html("<div>SivoApp</div>")
+                    .Location(ToolbarItemLocation.Before)
+                    .CssClass("header-title");
                 })
-            )
+                )
         </div>
         <div class="layout-body layout-body-hidden">
             @(Html.DevExtreme().Drawer()
@@ -47,70 +46,73 @@
                 .Position(DrawerPosition.Left)
                 .Opened(new JS("SivoApp.restoreDrawerOpened()"))
                 .Content(@<text>
-                    <div id="layout-drawer-scrollview" class="with-footer">
-                        <div class="content">
-                            @RenderBody()
-                        </div>
-                        <div class="content-block">
-                            <div class="content-footer">
-                                <div id="footer">
-                                    Copyright (c) 2000-2021 Developer Express Inc.
-                                    <br />
-                                    All trademarks or registered trademarks are property of their respective owners.
-                                </div>
+                <div id="layout-drawer-scrollview" class="with-footer">
+                    <div class="content">
+                        @RenderBody()
+                    </div>
+                    <div class="content-block">
+                        <div class="content-footer">
+                            <div id="footer">
+                                Copyright (c) 2000-2021 Developer Express Inc.
+                                <br />
+                                All trademarks or registered trademarks are property of their respective owners.
                             </div>
                         </div>
                     </div>
-                </text>)
+                </div>
+            </text>)
                 .Template(new TemplateName("navigation-menu"))
-            )
+                )
         </div>
     </div>
 
-    @using(Html.DevExtreme().NamedTemplate("navigation-menu")) {
+    @using (Html.DevExtreme().NamedTemplate("navigation-menu"))
+    {
         <div class="menu-container dx-swatch-additional">
 
-            @functions{
-                string GetUrl(string action) => Url.Action(action);
+            @functions {
+            string GetUrl(string action) => Url.Action(action);
             string GetCurrentUrl()
             {
                 if (ViewContext.RouteData.Values.ContainsKey("page"))
                 {
                     return Url.Content(ViewContext.RouteData.Values["page"].ToString());
                 }
-                return string.Empty; // Ou une URL par défaut
+                return string.Empty; // Default URL
             }
-                bool IsCurrentUrl(string pageName) => GetUrl(pageName) == GetCurrentUrl();
-            }
+            bool IsCurrentUrl(string pageName) => GetUrl(pageName) == GetCurrentUrl();
+        }
 
-            @(Html.DevExtreme().TreeView()
+        @(Html.DevExtreme().TreeView()
                 .Items(items =>
                 {
                     items.Add()
-                        .Text("Home")
-                        .Icon("home")
-                        .Option("path", GetUrl("Index"))
-                        .Selected(IsCurrentUrl("Index"));
+                    .Text("Home")
+                    .Icon("home")
+                    .Option("path", GetUrl("Index"))
+                    .Selected(IsCurrentUrl("Index"));
 
                     items.Add()
-                        .Text("About")
-                        .Icon("info")
-                        .Option("path", GetUrl("About"))
-                        .Selected(IsCurrentUrl("About"));
+                    .Text("About")
+                    .Icon("info")
+                    .Option("path", GetUrl("About"))
+                    .Selected(IsCurrentUrl("About"));
 
-                    items.Add()
-                    .Text("Login")
-                    .Icon("key")
-                    .Option("path", GetUrl("Login"))
-                    .Selected(IsCurrentUrl("Login"));
-
-                    items.Add()
-                    .Text("Logout")
-                    .Icon("key")
-                    .Option("path", GetUrl ("Logout"))
-                    .Selected(IsCurrentUrl("Logout"));
-
-
+                    if (User.Identity?.IsAuthenticated ?? false)
+                    {
+                        items.Add()
+                        .Text("Logout")
+                        .Icon("key")
+                        .Option("path", "javascript:document.getElementById('logoutForm').submit();");
+                    }
+                    else
+                    {
+                        items.Add()
+                        .Text("Login")
+                        .Icon("user")
+                        .Option("path", Url.Action("Login"));
+                    }
+                    
                 })
                 .ExpandEvent(TreeViewExpandEvent.Click)
                 .SelectionMode(NavSelectionMode.Single)
@@ -118,9 +120,17 @@
                 .FocusStateEnabled(false)
                 .Width(250)
                 .OnItemClick("SivoApp.onTreeViewItemClick")
-            )
+                )
 
         </div>
+    }
+
+    <!-- Formulaire de déconnexion -->
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <form id="logoutForm" method="post" asp-area="Identity" asp-page="/Account/Logout" style="display: none;">
+            @Html.AntiForgeryToken()
+        </form>
     }
 
     <script>
@@ -226,6 +236,7 @@
         });
     </script>
 </body>
+
 @RenderSection("Scripts", required: false)
 
 </html>

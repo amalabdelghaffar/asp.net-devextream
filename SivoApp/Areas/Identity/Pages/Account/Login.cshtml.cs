@@ -22,6 +22,7 @@ namespace SivoApp.Areas.Identity.Pages.Account
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
 
+        //Constructeur
         public LoginModel(SignInManager<ApplicationUser> signInManager, 
             ILogger<LoginModel> logger,
             UserManager<ApplicationUser> userManager)
@@ -31,16 +32,19 @@ namespace SivoApp.Areas.Identity.Pages.Account
             _logger = logger;
         }
 
+        
         [BindProperty]
-        public InputModel Input { get; set; }
+        public InputModel Input { get; set; }   //Utilisé pour lier les données de formulaire de la vue au modèle backend.
 
-        public IList<AuthenticationScheme> ExternalLogins { get; set; }
+        public IList<AuthenticationScheme> ExternalLogins { get; set; }   //Contient la liste des fournisseurs d'authentification externes (par ex., Google, Facebook).
 
-        public string ReturnUrl { get; set; }
+        public string ReturnUrl { get; set; }  //Stocke l'URL à laquelle l'utilisateur sera redirigé après une connexion réussie.
 
         [TempData]
-        public string ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; } //Stocke les messages d'erreur à afficher temporairement sur la page.
 
+
+        //Représente les données saisies par l'utilisateur dans le formulaire
         public class InputModel
         {
             [Required]
@@ -55,6 +59,7 @@ namespace SivoApp.Areas.Identity.Pages.Account
             public bool RememberMe { get; set; }
         }
 
+        //Méthodes
         public async Task OnGetAsync(string returnUrl = null)
         {
             if (!string.IsNullOrEmpty(ErrorMessage))
